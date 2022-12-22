@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            margin: 30px 0 0 100px;
+        }
+         input{
+            margin : 10px;
+         }
+         th ,td{
+            border : 3px solid blue;
+            padding : 5px;
+
+         }
+         .warn_msg{
+            color : red;
+            display: none;
+         }
+    </style>
+</head>
+<body> 
+    <div class="form">
+<form action="" id="form_submit">
+    <label for="">Enter Your First Name</label> <input type="text" placeholder="first Name"><br>
+    <label for="">Enter Your Last Name</label> <input type="text" placeholder="Last Name"><br>
+    <label for="">Enter Your address</label> <input type="text" placeholder="address"><br>
+    <label for="">Enter Your pin code</label> <input type="number" placeholder="pin code"><br>
+    <label for="">Enter Your gender</label> <input type = "text" placeholder="gender"><br>
+    <label for="">Enter Your food</label> <input type="text" placeholder="your food"><br>
+    <label for="">Enter Your state</label> <input type="text" placeholder="Your State"><br>
+    <label for="">Enter Your Country</label> <input type="text" placeholder="Your country"><br>
+    <button type="submit">submit</button>
+</form>
+<br>
+<br>
+<hr>
+<table>
+<thead>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>address</th>
+        <th>pin code</th>
+        <th>gender</th>
+        <th>food</th>
+        <th>State</th>
+        <th>Country</th>
+</tr>
+    </thead>
+    <tbody class="tbody">
+<tr class="data">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+
+</tr>
+
+    </tbody>
+
+
+</table>
+<h3 class="warn_msg">form cannot be submitted</h3>
+</div>
+
+    
+      
+</body>
+<script src="script.js"></script> 
+</html>
